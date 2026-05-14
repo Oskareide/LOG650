@@ -1,0 +1,9 @@
+Produkt,Lag,Q-stat,p-verdi,Konklusjon
+Terrassebord (28x120),13,28.46,0.0078,Signifikant autokorrelasjon
+Terrassebord (28x120),26,32.96,0.1633,Ingen autokorrelasjon ✓
+Planke (48x98),13,8.56,0.8056,Ingen autokorrelasjon ✓
+Planke (48x98),26,12.8,0.9857,Ingen autokorrelasjon ✓
+"Terrasseskrue (4,2x55)",13,7.61,0.868,Ingen autokorrelasjon ✓
+"Terrasseskrue (4,2x55)",26,26.49,0.4365,Ingen autokorrelasjon ✓
+Skrue 5x90,13,10.3,0.6691,Ingen autokorrelasjon ✓
+Skrue 5x90,26,25.6,0.4851,Ingen autokorrelasjon ✓

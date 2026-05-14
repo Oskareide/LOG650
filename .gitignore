@@ -1,0 +1,14 @@
+# Rådata med forretningssensitiv informasjon
+002_data/raw/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/

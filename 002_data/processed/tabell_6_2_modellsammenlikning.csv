@@ -1,0 +1,13 @@
+Produkt,Modell,RMSE,MAE,MAPE
+Terrassebord (28x120),Naiv,365.68,275.33,162.1
+Terrassebord (28x120),SARIMA,313.35,228.08,124.5
+Terrassebord (28x120),Gradient Boosting,408.08,364.04,284.1
+Planke (48x98),Naiv,596.52,520.18,85.3
+Planke (48x98),SARIMA,485.24,391.93,61.3
+Planke (48x98),Gradient Boosting,602.06,519.44,97.4
+"Terrasseskrue (4,2x55)",Naiv,3.28,2.42,86.0
+"Terrasseskrue (4,2x55)",SARIMA,2.91,2.48,87.8
+"Terrasseskrue (4,2x55)",Gradient Boosting,3.41,2.6,128.1
+Skrue 5x90,Naiv,5.07,3.17,86.9
+Skrue 5x90,SARIMA,3.56,2.07,59.8
+Skrue 5x90,Gradient Boosting,9.56,7.71,280.6

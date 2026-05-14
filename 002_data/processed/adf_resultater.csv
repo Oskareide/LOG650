@@ -1,0 +1,9 @@
+Produkt,Serie,ADF-stat,p-verdi,Krit. 5%,Stasjonær
+Terrassebord (28x120),Original,-10.925,0.0,-2.887,✓
+Terrassebord (28x120),Log + diff (d=1),-5.513,0.0,-2.889,✓
+Planke (48x98),Original,-3.309,0.0145,-2.888,✓
+Planke (48x98),Log + diff (d=1),-5.898,0.0,-2.89,✓
+"Terrasseskrue (4,2x55)",Original,-3.745,0.0035,-2.887,✓
+"Terrasseskrue (4,2x55)",Log + diff (d=1),-8.677,0.0,-2.888,✓
+Skrue 5x90,Original,-12.117,0.0,-2.887,✓
+Skrue 5x90,Log + diff (d=1),-7.108,0.0,-2.889,✓

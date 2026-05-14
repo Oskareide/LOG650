@@ -164,6 +164,34 @@ def parse_markdown(doc: Document, md_tekst: str, er_sammendrag=False):
             i += 1
             continue
 
+        # --- Figurreferanse → sett inn bilde ---
+        figur_match = re.search(r"→\s*Figur[:\s]+`?([^`\s]+\.png)`?", linje)
+        if figur_match:
+            # Støtter både bare filnavn og full sti
+            sti_str  = figur_match.group(1)
+            filnavn  = Path(sti_str).name
+            bildefil = REPORT / "figures" / filnavn
+            if bildefil.exists():
+                para = doc.add_paragraph()
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                run  = para.add_run()
+                run.add_picture(str(bildefil), width=Cm(14))
+                # Figurtekst under bildet
+                cap_tekst = linje.strip().lstrip("→").strip()
+                cap_tekst = re.sub(r"\S+\.png", "", cap_tekst).strip(": ").strip()
+                if cap_tekst:
+                    cap = doc.add_paragraph()
+                    cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    r   = cap.add_run(cap_tekst)
+                    sett_font(r, størrelse=10, kursiv=True)
+                    cap.paragraph_format.space_after = Pt(10)
+            else:
+                # Fil ikke funnet – behold som tekst
+                para = doc.add_paragraph()
+                legg_til_løpetekst(para, linje.strip())
+            i += 1
+            continue
+
         # --- Tom linje ---
         if not linje.strip():
             i += 1

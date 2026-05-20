@@ -9,17 +9,3 @@ Resultatene viser at SARIMA gir lavest prognosefeil i testperioden for alle fire
 Oppgaven konkluderer med at datadrevne prognosemetoder gir et vesentlig bedre beslutningsgrunnlag enn dagens praksis, og at et KI-støttet innkjøpssystem kan implementeres gradvis i Byggmakker Gravdals eksisterende ERP-løsning. Systemet anbefales innført som et beslutningsstøtteverktøy der systemet genererer anbefalinger og innkjøper beholder godkjenningsansvaret.
 
 **Nøkkelord:** etterspørselsprognoser, lagerstyring, SARIMA, Gradient Boosting, KI-støttet innkjøp, byggevarehandel
-
----
-
-# Abstract
-
-This paper investigates how demand forecasting and artificial intelligence can improve inventory management for selected products at Byggmakker Gravdal, a Norwegian building materials retailer. The company currently relies on experience-based ordering and has repeatedly faced stockout situations for timber products during peak season.
-
-The analysis is based on weekly historical sales data from January 2024 to April 2026, covering four products: decking boards (28x120 mm), structural timber (48x98 mm), decking screws (4.2x55 mm), and wood screws (5x90 mm). Three forecasting models are compared: a naïve benchmark, SARIMA(1,1,1)(1,0,1)₁₃, and a Gradient Boosting Regressor, evaluated on a hold-out test set (November 2025 – April 2026) using RMSE, MAE, and MAPE.
-
-SARIMA achieves the lowest forecast error across all four products in the test period. Inventory parameters — safety stock, reorder point, and EOQ — are derived from the forecast results at a 95% service level. A simulation shows that an AI-supported ordering system (scenario B) substantially reduces stockouts compared to the experience-based approach (scenario A).
-
-The paper concludes that data-driven forecasting provides a significantly better basis for ordering decisions than current practice, and that an AI-supported procurement system can be implemented incrementally within Byggmakker Gravdal's existing ERP infrastructure.
-
-**Keywords:** demand forecasting, inventory management, SARIMA, Gradient Boosting, AI-supported procurement, building materials retail

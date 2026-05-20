@@ -472,17 +472,7 @@ def main():
         para.paragraph_format.space_after       = Pt(6)
         legg_til_løpetekst(para, linje)
 
-    # --- Vedlegg ---
-    legg_til_sideskift(doc)
-    print("Behandler: 09_vedlegg.md")
-    para = doc.add_heading("Vedlegg – Python-kode", level=1)
-    for run in para.runs:
-        sett_font(run, størrelse=16, fet=True)
-
-    vedlegg_tekst = (REPORT / "09_vedlegg.md").read_text(encoding="utf-8")
-    uten_h1 = "\n".join(l for l in vedlegg_tekst.splitlines()
-                        if not l.startswith("# "))
-    parse_markdown(doc, uten_h1)
+    # Vedlegg med Python-kode er ikke del av rapporten
 
     # --- Lagre ---
     doc.save(OUT)

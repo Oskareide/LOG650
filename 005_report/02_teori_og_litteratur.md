@@ -40,7 +40,7 @@ Likevel er det viktig å nyansere bildet: maskinlæringsmodeller krever større 
 
 Et KI-støttet innkjøpssystem er et system som kombinerer etterspørselsprognoser med regelbasert eller læringsbasert logikk for å generere automatiske eller halvautomatiske bestillingsanbefalinger. Slike systemer kan redusere den manuelle arbeidsmengden knyttet til varebestilling, minimere menneskelige feil og sørge for at bestillinger baseres på data fremfor intuisjon (van der Vorst, Beulens & van Beek, 2000).
 
-Et typisk KI-støttet innkjøpssystem består av tre hovedkomponenter: en prognosemodell som estimerer fremtidig etterspørsel, en lagerstyringsmodul som beregner optimalt bestillingspunkt og bestillingsmengde, og et beslutningslag som omsetter beregningene til konkrete bestillingsanbefalinger. Implementering av slike systemer i eksisterende ERP-løsninger er imidlertid ikke uten utfordringer, der datakvalitet og organisatorisk tilpasning er gjennomgående flaskehalser (Fosso Wamba mfl., 2017).
+Et typisk KI-støttet innkjøpssystem består av tre hovedkomponenter: en prognosemodell som estimerer fremtidig etterspørsel, en lagerstyringsmodul som beregner optimalt bestillingspunkt og bestillingsmengde, og et beslutningslag som omsetter beregningene til konkrete bestillingsanbefalinger. Implementering av slike systemer i eksisterende ERP-løsninger er imidlertid ikke uten utfordringer, der datakvalitet og organisatorisk tilpasning er gjennomgående flaskehalser (Fosso Wamba mfl., 2015).
 
 ---
 

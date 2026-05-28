@@ -26,7 +26,7 @@ Valget av servicegrad på 95 % er en faglig begrunnelse, ikke en absolutt sannhe
 
 Simuleringen antyder at et KI-støttet innkjøpssystem kan gi målbare forbedringer i lagerstyringen sammenlignet med dagens praksis. Det er likevel viktig å ikke overdrive konklusjonene fra simuleringen. Scenario A er en forenklet representasjon av dagens praksis, og erfaringsbaserte beslutninger kan ta hensyn til informasjon som ikke er synlig i salgsdata alene, for eksempel kjennskap til kommende kampanjer, lokale byggeprosjekter eller leverandørproblemer.
 
-Et KI-støttet system bør derfor ses som et beslutningsstøtteverktøy som supplerer menneskelig vurdering, ikke som en erstatning for den. Dette er i tråd med Fosso Wamba mfl. (2017), som peker på at vellykkede implementeringer kjennetegnes av en hybrid tilnærming der systemet genererer anbefalinger og mennesket beholder godkjenningsansvaret.
+Et KI-støttet system bør derfor ses som et beslutningsstøtteverktøy som supplerer menneskelig vurdering, ikke som en erstatning for den. Dette er i tråd med Fosso Wamba mfl. (2015), som peker på at vellykkede implementeringer kjennetegnes av en hybrid tilnærming der systemet genererer anbefalinger og mennesket beholder godkjenningsansvaret.
 
 ---
 

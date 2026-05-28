@@ -4,6 +4,8 @@ Alle referanser er formatert i APA 7. utgave.
 
 ---
 
+Anthropic. (2025). *Claude Code* [Kodingsassistent]. https://claude.ai/code
+
 Carbonneau, R., Laframboise, K., & Vahidov, R. (2008). Application of machine learning techniques for supply chain demand forecasting. *European Journal of Operational Research, 184*(3), 1140–1154. https://doi.org/10.1016/j.ejor.2006.12.004
 
 Chopra, S., & Meindl, P. (2016). *Supply chain management: Strategy, planning, and operation* (6. utg.). Pearson.
